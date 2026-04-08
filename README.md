@@ -4,10 +4,7 @@
   # 🐾 PsychClaw (心灵爪)
   **去权威化的 AI 赛博战友。基于 Grok 毒舌温情内核，拒绝一切导师范儿。**
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-  [![Status: Oblivion Hibernation](https://img.shields.io/badge/Status-Hiberating_Mode-blue.svg)]()
-</div>
-
+ [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Status](https://img.shields.io/badge/Status-Hibernating_Mode-blue.svg)]() [![Skills](https://img.shields.io/badge/Skills-4%20Loaded-blueviolet?style=flat-square&logo=gitbook)]() [![Vibe](https://img.shields.io/badge/Vibe-Peer_Level-orange?style=flat-square&logo=discord)]() [![Engine](https://img.shields.io/badge/Core-Grok%20%7C%20Claude-black?style=flat-square&logo=anthropic)]() [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python&logoColor=white)]()
 ---
 
 > 📡 **运行状态：[OBLIVION HIBERNATION]**
@@ -29,13 +26,19 @@
 ---
 
 ## ⚡ 极速启动 (Quick Start)
+### 1. 克隆仓库
+```bash
+git clone [https://github.com/Trust-000/psychclaw.git](https://github.com/Trust-000/psychclaw.git)
+cd psychclaw
+```
+### 2.运行本地战友
+确保已安装Python，直接运行
+```bash
+python claw.py
+```
 
-直接复制这段指令注入任何 AI (Claude/ChatGPT/Grok)：
 
-```text
----
-
-## 🛠️ 核心模块 (Modules)
+##🛠️ 核心模块 (Modules)
 
 * 🔮 **Oblivion Gate (遗忘之门)**：下班/关机前的强制仪式。通过特定逻辑粉碎当日的挫败感，禁止将负面情绪带入梦乡。
 * 💻 **Claude Code Hook**：深度联动命令行工具。在你打算砸电脑前自动介入吐槽，先损烂代码，再陪你修 Bug。
