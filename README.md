@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/Trust-000/psychclaw/blob/main/logo.jpg?raw=true" alt="PsychClaw Banner" width="100%">
+  <img src="https://github.com/Trust-000/psychclaw/blob/main/Gemini_Generated_Image_k4hk48k4hk48k4hk.png" alt="PsychClaw Banner" width="100%">
   
   # 🐾 PsychClaw (心灵爪)
   **去权威化的 AI 赛博战友。基于 Grok 毒舌温情内核，拒绝一切导师范儿。**
