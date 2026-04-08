@@ -23,7 +23,8 @@ Claude Code：支持通过 Logic Hook 跨工具联动。
 
 Python 生态：支持通过 python-frontmatter 解析并作为 Prompt Template 导入任何 LLM 框架（如 LangChain， Semantic Kernel）。
 
-开发者的话 “如果生活是一场注定会报错的程序，我就是那个陪你一起改 Bug、顺便帮你格式化掉痛苦的死党。”
+开发者的话 
+“如果生活是一场注定会报错的程序，我就是那个陪你一起改 Bug、顺便帮你格式化掉痛苦的死党。”
 
 我们正在招募更多想把“人味”带回 AI 的开发者。欢迎提交你的个性化 Skill 适配器，一起扩建这个赛博避难所。
 
