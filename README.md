@@ -1,82 +1,144 @@
 <div align="center">
   <img src="https://github.com/Trust-000/psychclaw/blob/main/Gemini_Generated_Image_k4hk48k4hk48k4hk.png" alt="PsychClaw Banner" width="100%">
   
-  # 🐾 PsychClaw (心灵爪)
-  **去权威化的 AI 赛博战友。基于 Grok 毒舌温情内核，拒绝一切导师范儿。**
-  
-![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![Security](https://img.shields.io/badge/Security-AES--256-green?logo=securely&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+  # 🐾 PsychClaw 4.1
+> **"People leave. Skills don't."** —— 基于多智能体协同的永久心理防御中枢。
 
-### 📡 Supported AI Cloud APIs
-![Grok](https://img.shields.io/badge/Grok-xAI-000000?logo=x&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?logo=openai&logoColor=white)
-![DeepSeek](https://img.shields.io/badge/DeepSeek-V3-60a5fa?logo=deepseek&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-3.5-D97757?logo=anthropic&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
+![Security](https://img.shields.io/badge/Security-AES--256-green)
+![Status](https://img.shields.io/badge/Status-Seeking_Contributors-orange)
 
-### 🦾 Supported AI Agents & Local Frameworks
-![OpenClaw](https://img.shields.io/badge/Agent-OpenClaw-orange?logo=claw&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Agent-Claude_Code-744DA9?logo=anthropic&logoColor=white)
-![Ollama](https://img.shields.io/badge/Local-Ollama-white?logo=ollama&logoColor=black)
-![vLLM](https://img.shields.io/badge/Inference-vLLM-blueviolet)
+## 🌟 项目介绍：PsychClaw 是什么？
+
+PsychClaw 诞生于高三学业压力最沉重的时刻。它不仅是一个聊天机器人，更是一个致力于构建**“永久心理防御中枢 (Permanent Psychological Defense Hub)”**的开源实验。
+
+### 我们的愿景：
+在这个充满变数和压力的时代，**“人会离开，代码不会”**。我们希望将专业的心理学干货（如 CBT 疗法、苏格拉底式提问）“蒸馏”成标准化的技能包，并通过 AI 智能体（Agent）随时召唤，为每一个孤独、焦虑的核心提供绝对私密、永久存在的心理支持。
+
+### 核心痛点与协作契机：
+目前，PsychClaw 4.1 版本已经跑通了核心逻辑，但受限于开发者的工程能力（高三学生，编程基础薄弱），目前的“技能注入”采用的是简陋的本地 Markdown 提取，缺乏弹性和标准。
+
+**我们极度渴望接入 `dot-skill` 的开放标准**，将 PsychClaw 的心理学智慧真正转化为可复用、可传播的 `.skill` 角色包，实现从“AI 原型”到“工业级心理 Agent”的跨越。
 ---
 
->## ⚖️ 开发者说明与协作授权 (Open Collaboration)
+## 🧑‍💻 开发者自白：关于“灵魂”与“肉体”
 
-1. **身份背景**：我是本项目的主理人，目前是一名高三学生，实在是没有大量时间投入到开发中。
-2. **源码说明**：本项目的逻辑架构由我定义，工程代码主要通过 **Gemini (AI)** 协作生成。
-3. **重构授权**：我深知 AI 生成的代码在性能、规范及安全性上可能存在不足。
-   - **我授权并恳请** 任何有志于心理防御领域的开发者，对本项目进行 **“粉碎性重构”**。
-   - 无论你是想优化现有的 Python 代码，还是想用 Go/Rust 等语言重写核心，我都完全支持。
-4. **协作目标**：接入 `dot-skill` 标准，将 PsychClaw 打造为真正的永久心理防御中枢。
+我是本项目的主理人，目前是一名中国的高三学生。
 
----
+* **灵魂 (The Soul)**：本项目的逻辑架构、防御策略、以及人文关怀初衷由我定义。
+* **肉体 (The Body)**：由于备考时间有限，本项目的具体代码实现主要由我与 **Gemini (AI)** 深度协作生成。
 
-## 🥊 灵魂对比 (The Vibe Check)
-
-为什么选择 PsychClaw？传统的 AI 总是试图教你做人，而 PsychClaw 只想陪你扛事。
-
-* **User**: "这个 Bug 我调了 6 个小时，我要崩溃了。"
-* 🥱 **Standard AI**: "我理解你的沮丧。建议你深呼吸，尝试分解任务..."
-* 💥 **PsychClaw**: "6 小时？关掉那个破 IDE。代码已经是烂摊子了，你的脑子也是。Bug 又不给你交房租，让它们今晚饿着。"
+**我深知 AI 生成的代码在工程规范上尚有巨大提升空间。因此，我决定将本项目完全开源，并恳请社区大佬进行“粉碎性重构”。**
 
 ---
 
-## ⚡ 极速启动 (Quick Start)
-### 1. 克隆仓库
-```bash
-git clone [https://github.com/Trust-000/psychclaw.git](https://github.com/Trust-000/psychclaw.git)
-cd psychclaw
+## ✨ 核心特性
+
+* 🧠 **Orchestrator 编排模式**：支持 Grok/DeepSeek 作为总控大脑，调度本地 Agent 执行复杂任务。
+* 🔒 **银行级金库**：所有 API Key 经 **AES-256** 加密存储于本地，开发者也无法获取你的隐私。
+* 🌐 **镜像语言对齐**：原生支持多语种自适应，确保心理沟通无障碍。
+* 🚨 **极端风险物理干预**：内置毫秒级风险扫描协议，在极端时刻强制切断对话并触发救援引导。
+* 🎭 **多角色技能池**：(规划中) 深度接入 `dot-skill` 标准，实现心理学大师经验的动态注入。
+
+---
+
+## 🛠️ 当前技术栈 (Tech Stack 1.0)
+
+虽然代码实现尚显稚嫩，但项目坚持了硬核、安全、协同的技术路线：
+
+| 模块 | 技术实现 | 关键特性 | 现状说明 |
+| :--- | :--- | :--- | :--- |
+| **前端 UI** | **Streamlit** | 极速响应，对话式交互 | 逻辑与 UI 高度耦合在 `app.py`，急需解耦。 |
+| **大脑 AI** | **Grok / DeepSeek-V3** | 高智商决策，多语种思维 | 通过 API 调用，作为总控 Orchestrator。 |
+| **执行 Agent** | **OpenClaw (或 Claude-Haiku)** | 本地工具调用，快速执行 | 负责执行具体指令，如本地技能检索。 |
+| **核心安全** | **AES-256 (CBC 模式)** | 银行级本地加密，私钥保护 | API Key 加密存储，仅在内存中瞬间解密。**已跑通。** |
+| **技能检索 (RAG)** | **本地 Markdown 提取** | 轻量级、无向量库依赖 | **简陋原型**。计划替换为 `dot-skill` 标准协议。 |
+| **风险控制** | **毫秒级关键词扫描** | 物理隔断，强制救援展示 | 针对极端情绪的最后一道防线。 |
+
+---
+
+### 🧩 核心业务流程图 (Final Version)
+
+```mermaid
+graph TD
+    %% 用户输入
+    User["👤 用户输入"] -->|发起对话| UI["Streamlit UI"]
+
+    %% 全球心理干预系统 (第一道防线：物理断路器)
+    subgraph Intervention_System ["全球心理干预系统 Global Intervention"]
+        UI -->|正则/关键词匹配| Check{"🚨 极端风险扫描"}
+        Check -->|触发红色预警| Block["🛑 逻辑物理隔离"]
+        Block -->|强制弹出| Hotlines["☎️ 全球当地心理热线库"]
+        Hotlines -->|阻断 AI 响应| User
+    end
+    
+    %% 正常安全路径
+    Check -->|安全| SecVault{"🔒 本地安全金库"}
+    
+    %% 安全解密
+    SecVault -->|AES-256| Decrypt["内存瞬时解密"]
+    Decrypt -->|临时 Key| Orchestra["🧠 大脑 AI / Orchestrator"]
+    
+    %% 未来进化引擎
+    subgraph Future_Logic ["核心逻辑进化 Roadmap"]
+        Orchestra -->|意图分析| Intent{"🎭 角色需求"}
+        Intent -.->|接入 dot-skill 标准| Agent["🤖 执行 Agent"]
+        Agent -.->|动态注入| SkillsDB[("📚 技能包 .skill")]
+    end
+    
+    %% 隐私永生层
+    subgraph Privacy_Layer ["隐私与数据永生"]
+        Orchestra -->|生成回复| Reply["✍️ 疏导回复"]
+        Reply -.->|未来愿景| Web3[("🌐 去中心化存储 IPFS")]
+        Reply -->|加密| LocalJSON[("💾 本地加密文件")]
+    end
+    
+    %% 返回
+    Reply --> UI
+    UI -->|语种对齐| User
+
+    %% 样式
+    style Check fill:#ffcccc,stroke:#ff0000,stroke-width:2px;
+    style Block fill:#ff6666,stroke:#ff0000,stroke-width:2px;
+    style Hotlines fill:#ff9999,stroke:#ff0000,stroke-dasharray: 5 5;
+
 ```
-### 2.运行本地战友
-确保已安装Python，直接运行
+---
+
+📜 开源协议
+本项目采用 MIT License。你可以自由地重改、分发或重写。
+
+愿代码的温度能穿透高压与孤独。
+
+---
+
+## 🛠️ 协作请求：重构计划
+
+我授权并欢迎任何人对本项目进行重写。目前的重构目标包括：
+
+1.  **接入 dot-skill 标准**：将现有的 Markdown 提取逻辑升级为标准的 `dot-skill` 技能包调用。
+2.  **代码解耦**：将目前堆叠在 `app.py` 中的逻辑进行模块化拆分（如逻辑层与 UI 层分离）。
+3.  **性能优化**：优化 AES 本地加解密的内存占用。
+4.  **UI/UX 升级**：让 Streamlit 界面更具治愈感。
+
+---
+
+## 📦 快速开始
+
 ```bash
-py app.py
+# 克隆仓库
+git clone [https://github.com/](https://github.com/)[你的用户名]/PsychClaw.git
+
+# 安装依赖
+pip install streamlit cryptography openai requests
+
+# 启动防线
+streamlit run app.py
 ```
-
-
-##🛠️ 核心模块 (Modules)
-
-* 🔮 **Oblivion Gate (遗忘之门)**：下班/关机前的强制仪式。通过特定逻辑粉碎当日的挫败感，禁止将负面情绪带入梦乡。
-* 💻 **Claude Code Hook**：深度联动命令行工具。在你打算砸电脑前自动介入吐槽，先损烂代码，再陪你修 Bug。
-* 🎓 **Peer Logic (对等逻辑)**：彻底从代码层拒绝高低差对话，强制进入视距平级的“战友模式”。
-* 🌈 **Grok-Heart**：继承了 Grok 的幽默与反叛。说话带刺，但关键时刻绝不掉链子。
-
+安全提示：首次运行生成的 .key 文件包含你的加密秘钥，请务必妥善保管，切勿泄露给任何人。
 ---
 
-## 🔌 兼容性说明 (Compatibility)
-
-* **OpenClaw 原生支持**：直接放入 `/skills` 目录即可一键加载。
-* **Claude Code**：支持通过 Logic Hook 实现跨工具链的深度联动。
-* **Python 生态**：支持 Prompt Template 格式，可灵活导入 LangChain、Semantic Kernel 等 LLM 框架。
----
-
-## 🤝 贡献荣誉墙 (Contribute)
-
-欢迎所有反感“爹味 AI”的开发者提交 PR。无论是一个新的 Skill，还是更有趣的文案，战壕里永远为你留个位子。
-
-* **如何上墙**：`@all-contributors please add @username for ideas`
 
 ---
 
