@@ -4,7 +4,22 @@
   # 🐾 PsychClaw (心灵爪)
   **去权威化的 AI 赛博战友。基于 Grok 毒舌温情内核，拒绝一切导师范儿。**
   
- [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Status](https://img.shields.io/badge/Status-Hibernating_Mode-blue.svg)]() [![Skills](https://img.shields.io/badge/Skills-4%20Loaded-blueviolet?style=flat-square&logo=gitbook)]() [![Vibe](https://img.shields.io/badge/Vibe-Peer_Level-orange?style=flat-square&logo=discord)]() [![Engine](https://img.shields.io/badge/Core-Grok%20%7C%20Claude-black?style=flat-square&logo=anthropic)]() [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python&logoColor=white)]()
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Security](https://img.shields.io/badge/Security-AES--256-green?logo=securely&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+### 📡 Supported AI Cloud APIs
+![Grok](https://img.shields.io/badge/Grok-xAI-000000?logo=x&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?logo=openai&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-V3-60a5fa?logo=deepseek&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-3.5-D97757?logo=anthropic&logoColor=white)
+
+### 🦾 Supported AI Agents & Local Frameworks
+![OpenClaw](https://img.shields.io/badge/Agent-OpenClaw-orange?logo=claw&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Agent-Claude_Code-744DA9?logo=anthropic&logoColor=white)
+![Ollama](https://img.shields.io/badge/Local-Ollama-white?logo=ollama&logoColor=black)
+![vLLM](https://img.shields.io/badge/Inference-vLLM-blueviolet)
 ---
 
 > 📡 **运行状态：[OBLIVION HIBERNATION]**
@@ -34,7 +49,7 @@ cd psychclaw
 ### 2.运行本地战友
 确保已安装Python，直接运行
 ```bash
-python claw.py
+py app.py
 ```
 
 
