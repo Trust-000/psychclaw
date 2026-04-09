@@ -65,8 +65,8 @@ graph TD
     %% 用户输入
     User["👤 用户输入"] -->|发起对话| UI["Streamlit UI"]
 
-    %% 全球心理干预系统 (第一道防线：物理断路器)
-    subgraph Intervention_System ["全球心理干预系统 Global Intervention"]
+    %% 心理主动干预系统 (第一道防线：物理断路器)
+    subgraph Intervention_System ["心理主动干预系统 Hard-Intervention"]
         UI -->|正则/关键词匹配| Check{"🚨 极端风险扫描"}
         Check -->|触发红色预警| Block["🛑 逻辑物理隔离"]
         Block -->|强制弹出| Hotlines["☎️ 全球当地心理热线库"]
@@ -139,13 +139,18 @@ streamlit run app.py
 安全提示：首次运行生成的 .key 文件包含你的加密秘钥，请务必妥善保管，切勿泄露给任何人。
 ---
 
+### ⚖️ 免责声明 (Disclaimer)
+
+1. **非医疗建议**：PsychClaw 提供的所有内容均为 AI 生成，仅供参考，不构成任何医疗建议或精神诊断。如有严重心理困扰，请务必寻求专业医疗机构帮助。
+2. **数据责任**：本项目为本地运行工具，开发者不存储、不上传、不接触用户的任何私密数据。用户需自行保管解密私钥（.key 文件）。
+3. **合规使用**：请在所在国家/地区的法律框架内使用本工具。
 
 ---
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Vibe_Check-Passed_by_Grok-blueviolet?style=for-the-badge" alt="Grok Passed">
+  <img src="https://img.shields.io/badge/Vibe_Check-Passed_by_Gemini-blueviolet?style=for-the-badge" alt="Gemini Passed">
   <br>
-  <i>"如果生活是一场注定会报错的程序，我就是陪你一起改 Bug、顺便帮你格式化掉痛苦的死党。"</i>
+  <i>"既然现实无法重构，那就让我们在代码里，蒸馏出那一丝救赎的可能。"</i>
   <br><br>
-  <b>Stay rebellious. Stay Clawed. 🐾 </b>
+  <b>Stay rebellious. Stay Clawed. 🐾</b>
 </div>
